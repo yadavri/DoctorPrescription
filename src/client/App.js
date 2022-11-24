@@ -1,11 +1,15 @@
 import React from "react";
 import "./app.css";
-import LoginForm from "./LoginForm";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import Form from "./Components/Form";
 
 function App() {
   return (
     <div>
-      <LoginForm />
+      <Navbar />
+      <Form />
+      <Footer />
     </div>
   );
 }
